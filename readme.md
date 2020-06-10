@@ -28,11 +28,11 @@
 ![](preview/7contact.png)
 
 ## Design du hero-header
-![center 50%](preview/ca.jpg)
-![center 50%](preview/cb.jpg)
-![center 50%](preview/c2.jpg)
-![center 50%](preview/c3.jpg)
-![center 50%](preview/c1.jpg)
-![center 50%](preview/c44.png)
+![](preview/ca.jpg){:height="36px" width="36px"}
+![](preview/cb.jpg)
+![](preview/c2.jpg)
+![](preview/c3.jpg)
+![](preview/c1.jpg)
+![](preview/c44.png)
 
 
