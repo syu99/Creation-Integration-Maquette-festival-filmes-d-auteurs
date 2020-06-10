@@ -1,0 +1,140 @@
+.navbar-brand img{
+	max-height: 40px;
+}
+
+.bg-light {
+	background-color: #f9d423!important;
+}
+
+/*le backround de la page d'accueil*/
+
+h3{
+
+	min-height: 118vh;
+	background-image: url(../images/ban2.png);
+	align-items : center;
+	background-repeat:no-repeat; 
+	background-size: cover;
+	color:grey;
+}
+
+/* div qui englobe la totalité du code
+*/
+#global {
+	font-family: 'Cabin Sketch', cursive;
+	background-color: ;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	
+}
+}
+
+
+/* obsolète*/
+{
+	background-color: rgba(0,0,0,0.5);
+	min-height: 70vh;
+	display: flex;
+	align-items: center;
+}
+
+header h1{
+
+	font-family: 'Cabin Sketch', cursive;
+	background-color: grey;
+
+}
+
+header h2 {
+	font-family: 'Cabin Sketch', cursive;
+}
+
+header .slogan{
+	display: flex;
+	min-height: 70vh;
+	align-items: flex-end;
+	justify-content:flex-end;
+}
+
+
+.container{
+	background-color: #fbe351;
+	background-attachment: fixed;
+	min-height: 70vh;
+}
+
+/*section programmation des filmes */
+.img-fluid{
+	padding:8px 5px;
+}
+
+#bloc1{
+	padding:50px 2px;
+	display: block;
+	width: 60%;
+	position:relative; 
+
+
+
+}
+
+#horaires{
+
+	background-image: url(../images/papier1.jpg);
+	background-attachment: fixed;
+	padding: 50px 50vh
+}
+
+#formulaire_reservation{
+	background-color: #fbe351;
+	background-attachment: fixed;
+	padding: 10px 150px
+
+}
+
+#mask{
+	margin-left:25px;
+}
+
+#txt_accueil{
+	background-image: url(../images/papier1.jpg);
+	background-attachment: fixed;
+	padding: 50px 50px
+}
+
+#iframe{
+	background-image: url(../images/papier1.jpg);
+	padding: 0vh	45vh;
+	background-attachment: fixed;
+	
+}
+
+#formlaire_contact{
+	background-color: #fbe351;
+	background-attachment: fixed;
+	padding: 10px 150px
+	
+}
+
+.btn {
+	background-color: #fff;
+}
+.alert-secondary {
+    color: rgb(209, 206, 199);
+    background-color: rgb(32, 34, 36);
+    border-top-color: rgb(56, 60, 64);
+    border-right-color: rgb(56, 60, 64);
+    border-bottom-color: rgb(56, 60, 64);
+    border-left-color: rgb(56, 60, 64);
+	margin-top: 55px;
+}
+
+.btn1{
+	background-color: green;
+}
+
+.btn2{
+	background-color: red;
+}
