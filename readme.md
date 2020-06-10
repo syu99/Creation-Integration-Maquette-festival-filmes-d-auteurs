@@ -28,7 +28,7 @@
 ![](preview/7contact.png)
 
 ## Design du hero-header
-![](preview/ca.jpg){:height="36px" width="36px"}
+![](preview/ca.jpg)
 ![](preview/cb.jpg)
 ![](preview/c2.jpg)
 ![](preview/c3.jpg)
