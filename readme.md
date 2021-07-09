@@ -5,6 +5,8 @@
 * La maquette à été codé avec les technologies HTML5/CSS3 et bootsrap  
 * Le design du hero-header a été dessiné à la main puis vectorisé avec adobe illustrator et retouché avec photoshop
 
+Preview
+https://syu99.github.io/Maquette-festival-filmes-d-auteurs/
 
 ## Hero-header
 ![](preview/1affiche.png)
