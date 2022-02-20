@@ -1,140 +1,141 @@
-.navbar-brand img{
-	max-height: 40px;
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@300&display=swap");
+
+:root {
+  --color1: #47c3b9;
+  --color2: #fbe451bd;
+  --color3: rgb(73, 73, 73);
+}
+
+.navbar-brand img {
+  max-height: 40px;
 }
 
 .bg-light {
-	background-color: #f9d423!important;
+  background-color: var(--color2);
 }
 
 /*le backround de la page d'accueil*/
 
-h3{
-
-	min-height: 118vh;
-	background-image: url(../images/ban2.png);
-	align-items : center;
-	background-repeat:no-repeat; 
-	background-size: cover;
-	color:grey;
+h3 {
+  min-height: 118vh;
+  background-image: url(../images/ban2.png);
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: grey;
 }
 
 /* div qui englobe la totalité du code
 */
 #global {
-	font-family: 'Cabin Sketch', cursive;
-	background-color: ;
-	display: flex;
-	align-items: center;
-	justify-content: space-around;
-	flex-wrap: wrap;
-	
-}
+  font-family: "Archivo", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
-
-/* obsolète*/
-{
-	background-color: rgba(0,0,0,0.5);
-	min-height: 70vh;
-	display: flex;
-	align-items: center;
-}
-
-header h1{
-
-	font-family: 'Cabin Sketch', cursive;
-	background-color: grey;
-
+header h1 {
+  font-family: "Cabin Sketch", cursive;
+  background-color: var(--color3);
 }
 
 header h2 {
-	font-family: 'Cabin Sketch', cursive;
+  font-family: "Cabin Sketch", cursive;
 }
 
-header .slogan{
-	display: flex;
-	min-height: 70vh;
-	align-items: flex-end;
-	justify-content:flex-end;
+header .slogan {
+  display: flex;
+  min-height: 70vh;
+  align-items: flex-end;
+  justify-content: flex-end;
 }
 
-
-.container{
-	background-color: #fbe351;
-	background-attachment: fixed;
-	min-height: 70vh;
+.container {
+  border-radius: 10px;
+  background-color: var(--color2);
+  background-attachment: fixed;
+  min-height: 70vh;
 }
 
 /*section programmation des filmes */
-.img-fluid{
-	padding:8px 5px;
+.img-fluid {
+  padding: 8px 5px;
+  border-radius: 15px;
 }
 
-#bloc1{
-	padding:50px 2px;
-	display: block;
-	width: 60%;
-	position:relative; 
-
-
-
+#bloc1 {
+  padding: 50px 2px;
+  display: block;
+  width: 60%;
+  position: relative;
 }
 
-#horaires{
-
-	background-image: url(../images/papier1.jpg);
-	background-attachment: fixed;
-	padding: 50px 50vh
+#horaires {
+  border-radius: 10px;
+  background-image: url(../images/papier1.jpg);
+  background-attachment: fixed;
+  padding: 50px 50vh;
+  border: var(--color2) solid;
 }
 
-#formulaire_reservation{
-	background-color: #fbe351;
-	background-attachment: fixed;
-	padding: 10px 150px
-
+#formulaire_reservation {
+  border-radius: 10px;
+  background-color: var(--color2);
+  background-attachment: fixed;
+  padding: 10px 150px;
 }
 
-#mask{
-	margin-left:25px;
+#mask {
+  margin-left: 25px;
 }
 
-#txt_accueil{
-	background-image: url(../images/papier1.jpg);
-	background-attachment: fixed;
-	padding: 50px 50px
+#txt_accueil {
+  background-image: url(../images/papier1.jpg);
+  background-attachment: fixed;
+  padding: 50px 50px;
 }
 
-#iframe{
-	background-image: url(../images/papier1.jpg);
-	padding: 0vh	45vh;
-	background-attachment: fixed;
-	
+#iframe {
+  background-image: url(../images/papier1.jpg);
+  padding: 0vh 45vh;
+  background-attachment: fixed;
 }
 
-#formlaire_contact{
-	background-color: #fbe351;
-	background-attachment: fixed;
-	padding: 10px 150px
-	
+#contact_title,
+#reservation_title {
+  color: var(--color3);
+  padding: 50px 50px;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+#formlaire_contact {
+  background-color: var(--color2);
+  background-attachment: fixed;
+  padding: 10px 150px;
+  border-radius: 10px;
 }
 
 .btn {
-	background-color: #fff;
+  background-color: #fff;
 }
 .alert-secondary {
-    color: rgb(209, 206, 199);
-    background-color: rgb(32, 34, 36);
-    border-top-color: rgb(56, 60, 64);
-    border-right-color: rgb(56, 60, 64);
-    border-bottom-color: rgb(56, 60, 64);
-    border-left-color: rgb(56, 60, 64);
-	margin-top: 55px;
+  color: rgb(209, 206, 199);
+  background-color: rgb(32, 34, 36);
+  border-top-color: rgb(56, 60, 64);
+  border-right-color: rgb(56, 60, 64);
+  border-bottom-color: rgb(56, 60, 64);
+  border-left-color: rgb(56, 60, 64);
+  margin-top: 55px;
 }
 
-.btn1{
-	background-color: green;
+.btn1 {
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
 }
 
-.btn2{
-	background-color: red;
+.btn2 {
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
 }
