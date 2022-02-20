@@ -6,7 +6,7 @@
 * Le design du hero-header a été dessiné à la main puis vectorisé avec adobe Illustrator/Photoshop
 
 Preview:
-https://syu99.github.io/Maquette-festival-filmes-d-auteurs/
+https://syu99.github.io/Creation-Integration-Maquette-festival-filmes-d-auteurs/
 
 ## Hero-header
 ![](preview/1affiche.png)
