@@ -17,12 +17,14 @@
 /*le backround de la page d'accueil*/
 
 h3 {
-  min-height: 118vh;
+  min-height: 115vh;
   background-image: url(../images/ban2.png);
   align-items: center;
   background-repeat: no-repeat;
   background-size: cover;
   color: grey;
+
+  margin-top: -100px;
 }
 
 /* div qui englobe la totalité du code
@@ -35,13 +37,8 @@ h3 {
   flex-wrap: wrap;
 }
 
-header h1 {
-  font-family: "Cabin Sketch", cursive;
-  background-color: var(--color3);
-}
-
-header h2 {
-  font-family: "Cabin Sketch", cursive;
+#programmation {
+  padding-top: 120px;
 }
 
 header .slogan {
@@ -100,6 +97,8 @@ header .slogan {
   background-image: url(../images/papier1.jpg);
   padding: 0vh 45vh;
   background-attachment: fixed;
+  margin-top: 100px;
+  margin-bottom: 50px;
 }
 
 #contact_title,
@@ -108,6 +107,10 @@ header .slogan {
   padding: 50px 50px;
   font-size: 2rem;
   font-weight: 700;
+  padding-top: 50px;
+  padding-bottom: -50px;
+
+  margin-bottom: -50px;
 }
 
 #formlaire_contact {
@@ -115,27 +118,29 @@ header .slogan {
   background-attachment: fixed;
   padding: 10px 150px;
   border-radius: 10px;
+  margin-bottom: 50px;
 }
 
 .btn {
   background-color: #fff;
 }
 .alert-secondary {
-  color: rgb(209, 206, 199);
+  color: #f1f1f1f1;
   background-color: rgb(32, 34, 36);
   border-top-color: rgb(56, 60, 64);
   border-right-color: rgb(56, 60, 64);
   border-bottom-color: rgb(56, 60, 64);
   border-left-color: rgb(56, 60, 64);
-  margin-top: 55px;
+  margin-top: 43px;
+  margin-bottom: 25px;
 }
 
 .btn1 {
-  background-color: rgb(255, 255, 255);
+  background-color: #f1f1f1;
   border-radius: 5px;
 }
 
 .btn2 {
   border-radius: 5px;
-  background-color: rgb(255, 255, 255);
+  background-color: #f1f1f1;
 }
